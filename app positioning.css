@@ -1,0 +1,301 @@
+.background-image {
+    background-image:url('./app background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+height: 100%;
+}
+@font-face{
+    font-family: 'PGS' ;
+    src : url(Pages\ Grotesque\ Black\ Demo.ttf);
+}
+
+body{
+        margin: 0;
+        padding: 0;
+        
+}
+.keypad{
+    position: relative;
+    top:450px;
+    left:805px;
+    z-index: 17;
+    color: 045107;
+    font-size: 20px;
+}
+
+.link-style{
+     position: relative;
+      font-family: "PGS";
+      font-size: 40px;
+      top:175px;
+      left:540px;
+      z-index: 12;
+}
+
+.link-style2{
+    position: relative;
+     font-family: "PGS";
+     font-size: 40px;
+     top:315px;
+     left:520px;
+     z-index: 12;
+}
+
+.link-style3{
+    position: relative;
+     font-family: "PGS";
+     font-size: 40px;
+     top:445px;
+     left:500px;
+     z-index: 12;
+}
+
+.link-style4{
+    position: relative;
+     font-family: "PGS";
+     font-size: 40px;
+     top:595px;
+     left:480px;
+     z-index: 12;
+}
+
+.right-button{
+    position: relative;
+    top:470px;
+    left:1240px;
+    z-index: 14;
+    color:green;
+}
+.right-button2{
+    position: relative;
+    top:360px;
+    left:1233px;
+    z-index: 14;
+    color:green;
+}
+
+.wrong-button{
+    position: relative;
+    top:560px;
+    left:1132px;
+    z-index: 14;
+    color:red;
+}
+
+.wrong-button2{
+    position: relative;
+    top:360px;
+    left:250px;
+    z-index: 16;
+    color:red;
+}
+
+img{
+    width:100%; 
+    height:120% ;
+    scale: 60%;
+    position: fixed;
+    left: -120px;
+    top: -120px;
+    border:0px;
+    
+}
+
+p1{
+    border: 5px black;
+    border-width: fill;
+    background-color: 01bf0a;
+     position: relative;
+      font-family: "PGS";
+      font-size: 40px;
+      top:200px;
+      left:790px;
+    }
+    p2{
+        border: 5px black;
+        border-width: fill;
+        background-color: 01bf0a;
+         position: relative;
+          font-family: "PGS";
+          font-size: 40px;
+          top:60px;
+          left:790px;
+        }
+
+        p3{
+           color: white;
+            border: 5px black;
+            border-width: fill;
+            background-color: none;
+             position: relative;
+              font-family: "PGS";
+              font-size: 20px;
+              top:60px;
+              left:840px;
+        }
+        
+        p4{
+            border: 5px black;
+            border-width: fill;
+            background-color: 01bf0a;
+             position: relative;
+              font-family: "PGS";
+              font-size: 30px;
+              top:90px;
+              left:790px;
+            }
+p6{
+position: relative;
+font-family: "PGS";
+font-size: 30px;
+top:165px;
+left:790px;
+z-index: 15;
+}
+            
+p5{
+    position: relative;
+    font-family: "PGS";
+    font-size: 30px;
+    top:150px;
+    left:630px;
+    z-index: 15;
+}
+
+p7{
+    color: 045107;
+    position: relative;
+    font-family: "PGS";
+    font-size: 100px;
+    top:150px;
+    left:930px;
+    z-index: 16;
+}
+
+p8{
+    color: b30f0f;
+    position: relative;
+    font-family: "PGS";
+    font-size: 20px;
+    top:450px;
+    left:675px;
+    z-index: 16;
+}
+
+h1{
+    color: white;
+    position: absolute;
+    top: 170px;
+    right: 215px;
+    font-size: 50px;
+    font-family: "PGS";
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+h2{
+    color: white;
+    position: absolute;
+    top: 260px;
+    right: 175px;
+    font-size: 50px;
+    font-family: "PGS";
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+h3{
+    color: white;
+    position: absolute;
+    top: 160px;
+    left: 5px;
+    font-size: 20px;
+    font-family: "sans serif";
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+h4{
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 5px;
+    font-size: 20px;
+    font-family: "sans serif";
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+h5{
+    color: white;
+    position: absolute;
+    top: 460px;
+    left: 5px;
+    font-size: 20px;
+    font-family: "sans serif";
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+h6{
+    color: white;
+    position: absolute;
+    top: 500px;
+    left: 5px;
+    font-size: 20px;
+    font-family: "sans serif";
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+h7{
+    color: white;
+    position: absolute;
+    top: 140px;
+    left: 5px;
+    font-size: 20px;
+    font-family: "sans serif";
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+h8{
+    color: white;
+    position: absolute;
+    top: 540px;
+    left: 5px;
+    font-size: 20px;
+    font-family: "sans serif";
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+h9{
+    color: white;
+    position: absolute;
+    top: 180px;
+    left: 5px;
+    font-size: 20px;
+    font-family: "sans serif";
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+a{
+    color: white;
+    font-family: "PGS";
+}
+
+a2{
+    color: black;
+}
